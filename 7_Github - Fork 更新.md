@@ -20,6 +20,8 @@ git clone https://xxx.x.xx.xx.git
 
 ```
 
+
+
 2、进去 clone 的 文件夹，再打开 git
 
 ```sh
@@ -27,11 +29,15 @@ git clone https://xxx.x.xx.xx.git
 git remote add upstream https://github.com/y1ndan/genshin-impact-helper.git
 ```
 
+
+
 3、抓取更新 到 master分支
 
 ```sh
 git fetch upstream master
 ```
+
+
 
 4、切换 master分支（如果没有额外分支，部分人可省略）
 
@@ -39,12 +45,16 @@ git fetch upstream master
 git checkout master
 ```
 
+
+
 5、合并分支 (upstream 合并到 master，部分人可省略)
 
 ```sh
 # 如果创建了新分支，拉取的更新，才需要此步骤
 git merge upstream/master
 ```
+
+
 
 6、添加-提交-上传
 
